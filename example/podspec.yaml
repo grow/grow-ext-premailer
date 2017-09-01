@@ -1,0 +1,10 @@
+localization:
+  default_locale: en
+
+static_dirs:
+  - static_dir: /css/
+    serve_at: "/css/"
+
+extensions:
+  jinja2:
+  - extensions.premailer_ext.PremailerFilter

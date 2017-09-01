@@ -1,0 +1,19 @@
+table {
+  border: none;
+  border-spacing: 0;
+  padding: 0;
+}
+
+table td {
+  border-spacing: 0;
+  border-collapse: collapse;
+  padding: 0;
+}
+
+.inline-me {
+  border: 1px solid tomato;
+}
+
+.inline-me td {
+  padding: 20px;
+}

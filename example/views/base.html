@@ -1,0 +1,25 @@
+{% filter premailer %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Grow Premailer Extension Example</title>
+
+    <link rel="stylesheet" href="{{ g.static('/css/main.css').url }}">
+  </head>
+  <body>
+    <table class="inline-me">
+      <tr>
+        <td>
+          <p>The styles on this table are all inlined.</p>
+          <p>Check out the <a href="{{ g.static('/css/main.css').url }}">
+          original css</a> (which is not linked from this html anymore) to see
+          the source.</p>
+          <p>Notice the original class 'inline-me' is removed from the table as
+          well.</p>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
+{% endfilter %}

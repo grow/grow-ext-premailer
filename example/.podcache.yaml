@@ -1,0 +1,4 @@
+dependencies:
+  /content/pages/index.yaml:
+  - /css/main.css
+objects: {}
