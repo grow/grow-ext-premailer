@@ -1,1 +1,1 @@
-from premailer_ext import *
+from . premailer_extension import *
