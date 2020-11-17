@@ -2,7 +2,7 @@ import jinja2.ext
 import premailer
 
 def do_premailer(value):
-    p = premailer.Premailer(value, keep_style_tags=True, remove_classes=True)
+    p = premailer.Premailer(value, keep_style_tags=True, remove_classes=False)
     return p.transform()
 
 class PremailerExtension(jinja2.ext.Extension):
